@@ -1,23 +1,22 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "../routes/Home";
-import Info from "../routes/Info";
-import Portfolio from "../routes/Portfolio";
+import Portfolios from "../routes/Portfolios";
 
 const AppRouter = () => {
   return (
     <Router>
       <Switch>
         <main>
-          <Route path="/info">
-            <Info />
-          </Route>
-          <Route path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
+          <Container>
+            <Route path="/portfolios">
+              <Portfolios />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+          </Container>
         </main>
       </Switch>
     </Router>

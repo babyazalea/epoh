@@ -8,8 +8,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/info">info</Nav.Link>
-            <Nav.Link href="/portfolio">portfolio</Nav.Link>
+            <Nav.Link href="/portfolios">portfolios</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

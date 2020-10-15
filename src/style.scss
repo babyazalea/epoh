@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;900&family=Noto+Sans:wght@400;700&display=swap");
+
 @import "../src/assets/scss/config/reset.scss";
 
-@import "../src/assets/scss/body.scss";
-@import "../src/assets/scss/footer.scss";
-@import "../src/assets/scss/main.scss";
+@import "../src/assets/scss/partials/body.scss";
+@import "../src/assets/scss/partials/footer.scss";
+@import "../src/assets/scss/partials/main.scss";
+@import "../src/assets/scss/partials/nav.scss";
+
+@import "../src/assets/scss/pages/home.scss";
